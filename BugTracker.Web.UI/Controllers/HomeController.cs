@@ -9,8 +9,8 @@ namespace BugTracker.Web.UI.Controllers
 {
     public class HomeController : Controller
     {
-        private IRepository _db;
-        public HomeController(IRepository db)
+        private BugRepository _db;
+        public HomeController(BugRepository db)
         {
             _db = db;
         }

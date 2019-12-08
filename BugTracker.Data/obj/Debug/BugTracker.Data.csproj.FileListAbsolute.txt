@@ -26,3 +26,9 @@ D:\Projects\BugTracker\BugTracker.Data\bin\Debug\System.Web.WebPages.xml
 D:\Projects\BugTracker\BugTracker.Data\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\Projects\BugTracker\BugTracker.Data\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Projects\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.csprojAssemblyReference.cache
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Autofac.Extensions.DependencyInjection.dll
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Autofac.pdb
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Autofac.Extensions.DependencyInjection.pdb
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Autofac.Extensions.DependencyInjection.xml
+D:\Projects\BugTracker\BugTracker.Data\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
