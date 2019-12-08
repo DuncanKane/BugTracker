@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Services.Description;
 
 namespace BugTracker.Web.UI.App_Start
 {
@@ -22,9 +23,9 @@ namespace BugTracker.Web.UI.App_Start
             //builder.RegisterType<>()
             //       .As<>()
             //       .InstancePerRequest();
-            builder.RegisterType<BugTrackerContext>().InstancePerRequest();
+            builder.RegisterType<BugTrackerContext>().As<IBugTrackerContext>().InstancePerRequest();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
-            //builder.RegisterType<Repository>().As<IRepository>().InstancePerRequest();
+            //builder.RegisterType<Service>().As<IBugRepository>().InstancePerRequest();
 
 
             var container = builder.Build();

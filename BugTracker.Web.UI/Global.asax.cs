@@ -1,6 +1,8 @@
-﻿using BugTracker.Web.UI.App_Start;
+﻿using BugTracker.Data.Context;
+using BugTracker.Web.UI.App_Start;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -9,7 +11,7 @@ using System.Web.Routing;
 
 namespace BugTracker.Web.UI
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : HttpApplication
     {
         protected void Application_Start()
         {
@@ -18,6 +20,7 @@ namespace BugTracker.Web.UI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ContainerConfig.RegisterContainer();
+            Database.SetInitializer<BugTrackerContext>(null);
         }
     }
 }

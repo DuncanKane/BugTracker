@@ -1,4 +1,5 @@
-﻿using BugTracker.Data.Repositories;
+﻿using BugTracker.Data.Interfaces;
+using BugTracker.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace BugTracker.Web.UI.Controllers
 {
     public class HomeController : Controller
     {
-        private BugRepository _db;
-        public HomeController(BugRepository db)
+        private IBugRepository _db;
+        public HomeController(IBugRepository db)
         {
             _db = db;
         }
