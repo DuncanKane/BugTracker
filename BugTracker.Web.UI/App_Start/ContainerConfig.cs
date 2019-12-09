@@ -25,7 +25,7 @@ namespace BugTracker.Web.UI.App_Start
             //       .InstancePerRequest();
             builder.RegisterType<BugTrackerContext>().As<IBugTrackerContext>().InstancePerRequest();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
-            //builder.RegisterType<Service>().As<IBugRepository>().InstancePerRequest();
+            builder.RegisterType<BugRepository>().As<IBugRepository>().InstancePerRequest();
 
 
             var container = builder.Build();
