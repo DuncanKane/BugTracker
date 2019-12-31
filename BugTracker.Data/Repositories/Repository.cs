@@ -34,7 +34,7 @@ namespace BugTracker.Data.Repositories
             return _Context.Set<TEntity>().Where(predicate);
         }
 
-        public TEntity Get(int id)
+        public TEntity Get(Guid id)
         {
             return _Context.Set<TEntity>().Find(id);
         }

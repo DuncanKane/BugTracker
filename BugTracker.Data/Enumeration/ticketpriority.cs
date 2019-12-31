@@ -9,7 +9,7 @@ namespace BugTracker.Data.Enumeration
     public enum TicketPriority
     {
         Low = 0,
-        Meduim =1,
+        Meduim = 1,
         High = 2,
         UberImportant = 3
     }

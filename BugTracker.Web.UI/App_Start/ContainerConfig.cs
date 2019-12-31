@@ -20,15 +20,15 @@ namespace BugTracker.Web.UI.App_Start
             var builder = new ContainerBuilder();
 
             builder.RegisterControllers(typeof(MvcApplication).Assembly);            
-            //builder.RegisterType<>()
-            //       .As<>()
-            //       .InstancePerRequest();
-            builder.RegisterType<BugTrackerContext>().As<IBugTrackerContext>().InstancePerRequest();
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
+         
+            builder.RegisterType<BugTrackerContext>().As<IBugTrackerContext>().SingleInstance();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().SingleInstance();
             builder.RegisterType<BugRepository>().As<IBugRepository>().InstancePerRequest();
-
+            builder.RegisterType<TicketRepository>().As<ITicketRepository>().InstancePerRequest();
+            builder.RegisterType<BugTracker.Infrastructure.Ticket>().As<BugTracker.Infrastructure.Specifications.ITicket>().InstancePerRequest();
 
             var container = builder.Build();
+
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));            
         }
     }

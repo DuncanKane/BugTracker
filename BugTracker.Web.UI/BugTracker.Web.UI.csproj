@@ -164,6 +164,8 @@
     <Compile Include="App_Start\StartUp.Auth.cs" />
     <Compile Include="Controllers\BugsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TicketsController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -211,6 +213,16 @@
     <Content Include="Views\Bugs\Details.cshtml" />
     <Content Include="Views\Bugs\Edit.cshtml" />
     <Content Include="Views\Bugs\Index.cshtml" />
+    <Content Include="Views\Tickets\Create.cshtml" />
+    <Content Include="Views\Tickets\Delete.cshtml" />
+    <Content Include="Views\Tickets\Details.cshtml" />
+    <Content Include="Views\Tickets\Edit.cshtml" />
+    <Content Include="Views\Tickets\Index.cshtml" />
+    <Content Include="Views\Users\Create.cshtml" />
+    <Content Include="Views\Users\Delete.cshtml" />
+    <Content Include="Views\Users\Details.cshtml" />
+    <Content Include="Views\Users\Edit.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -230,9 +242,17 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BugTracker.Core\BugTracker.Core.csproj">
+      <Project>{1B037F6D-34D8-4582-BE4F-3B26DEECFF44}</Project>
+      <Name>BugTracker.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BugTracker.Data\BugTracker.Data.csproj">
       <Project>{ce2f54bd-7f2d-4e57-8399-ae4d7923c9d6}</Project>
       <Name>BugTracker.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BugTracker.Infrastructure\BugTracker.Infrastructure.csproj">
+      <Project>{B7EEF548-78D6-47E5-BC61-E65506046501}</Project>
+      <Name>BugTracker.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

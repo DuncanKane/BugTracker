@@ -1,0 +1,17 @@
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\obj\Debug\BugTracker.Infrastructure.csprojAssemblyReference.cache
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\obj\Debug\BugTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Infrastructure.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Infrastructure.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Core.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Data.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Core.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Data.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\BugTracker.Data.dll.config
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\AutoMapper.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\obj\Debug\BugTracker.Infrastructure.csproj.CopyComplete
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\obj\Debug\BugTracker.Infrastructure.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Infrastructure\obj\Debug\BugTracker.Infrastructure.pdb

@@ -121,9 +121,22 @@
     <Compile Include="Interfaces\IBugRepository.cs" />
     <Compile Include="Interfaces\IBugTrackerContext.cs" />
     <Compile Include="Interfaces\IDbContext.cs" />
+    <Compile Include="Interfaces\ILogRepository.cs" />
+    <Compile Include="Interfaces\ITicketRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Migrations\201912181315355_initial commit.cs" />
+    <Compile Include="Migrations\201912181315355_initial commit.designer.cs">
+      <DependentUpon>201912181315355_initial commit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912240943012_renamed ticketpriority.cs" />
+    <Compile Include="Migrations\201912240943012_renamed ticketpriority.designer.cs">
+      <DependentUpon>201912240943012_renamed ticketpriority.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BugRepository.cs" />
+    <Compile Include="Repositories\LogRepository.cs" />
+    <Compile Include="Repositories\TicketRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="UnitOfWork.cs" />
@@ -131,6 +144,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201912181315355_initial commit.resx">
+      <DependentUpon>201912181315355_initial commit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912240943012_renamed ticketpriority.resx">
+      <DependentUpon>201912240943012_renamed ticketpriority.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

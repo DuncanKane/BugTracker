@@ -1,0 +1,12 @@
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\BugTracker.Core.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\BugTracker.Core.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\BugTracker.Data.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\EntityFramework.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\BugTracker.Data.pdb
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\BugTracker.Data.dll.config
+C:\Personal_dev\BugTracker-master\BugTracker.Core\bin\Debug\EntityFramework.xml
+C:\Personal_dev\BugTracker-master\BugTracker.Core\obj\Debug\BugTracker.Core.csprojAssemblyReference.cache
+C:\Personal_dev\BugTracker-master\BugTracker.Core\obj\Debug\BugTracker.Core.csproj.CoreCompileInputs.cache
+C:\Personal_dev\BugTracker-master\BugTracker.Core\obj\Debug\BugTracker.Core.csproj.CopyComplete
+C:\Personal_dev\BugTracker-master\BugTracker.Core\obj\Debug\BugTracker.Core.dll
+C:\Personal_dev\BugTracker-master\BugTracker.Core\obj\Debug\BugTracker.Core.pdb

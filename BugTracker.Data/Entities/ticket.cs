@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BugTracker.Data.Enumeration;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace BugTracker.Data.Entities
         public Guid Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public byte PriorityTypeId { get; set; }
+        public byte TicketPriority { get; set; }
     }
 }

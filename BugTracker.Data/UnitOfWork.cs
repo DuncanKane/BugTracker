@@ -11,31 +11,21 @@ namespace BugTracker.Data
 {
     public class UnitOfWork : BugTrackerContext, IUnitOfWork
     {
-        private readonly BugTrackerContext _context;
-
-                    
-                     
-        public UnitOfWork(BugTrackerContext context)
+        private readonly IBugTrackerContext _context;
+                                        
+        public UnitOfWork(IBugTrackerContext context)
         {
             _context = context;
 
-
-
             Bugs = new BugRepository(_context);
-            
+            Tickets = new TicketRepository(_context);            
         }
 
-
-
         public IBugRepository Bugs { get; private set; }
-       
 
-
-
+        public  ITicketRepository Tickets { get; private set; }
 
         private bool disposed = false;
-
-
 
         protected virtual void Dispose(bool disposing)
         {
@@ -48,8 +38,6 @@ namespace BugTracker.Data
             }
             this.disposed = true;
         }
-
-
 
         public void Dispose()
         {
